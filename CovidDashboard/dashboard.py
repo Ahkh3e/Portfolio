@@ -11,9 +11,10 @@ def fetch_data():
     df['date'] = pd.to_datetime(df['date'], format="%Y%m%d")
     df.set_index('date', inplace=True)
     df.sort_index(ascending=True, inplace=True)
+
     return df
 
-def set_data(options):
+def data():
     return pd.DataFrame(df, options)
 
 
@@ -48,9 +49,9 @@ charts = st.sidebar.multiselect("Select individual charts to display:",
                 options=list(options.keys()),
                 default=list(options.keys())[0:1])
 
-data = set_data(options)
+
 for chart in charts:
     print(options[chart])
-    st.area_chart(data)
+    st.area_chart(df[options[chart]])
 
 st.pyplot()
