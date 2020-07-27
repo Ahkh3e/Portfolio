@@ -9,11 +9,5 @@ Covid19 DashBoard:
   Using Streamlit, and Panda libraries.
   Import json data, sort and display dat with GUI
 
-NeuralNetworks:
-  Neural system number predictor
-  Understanding the algortithm of neural networks
-  implemented using numpy
-  
-  
-
+Project is Continued on TestingStreamlit branch and converted to Flask Application.
 @author Ahkh3e
