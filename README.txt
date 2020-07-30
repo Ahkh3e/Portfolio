@@ -4,6 +4,8 @@ Projects and Works/
 This Repository consists of projects and ideas for implementation in software development.
 This is the project directory:
 
+REPOSIOTORY IS FOR PROOF OF CONCEPT PROJECTS
+
 PROJECTS IN PROGRESS ARE WITHIN DESIGNATED BRANCHES
 
 Projects:
